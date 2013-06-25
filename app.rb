@@ -23,6 +23,9 @@ module StudentSite
       erb :'students/studs'
     end
 
+    get '/' do
+      redirect to('/students')
+    end
 
     get '/students/:id' do |id|
       @student = Student.find(id)
