@@ -121,9 +121,9 @@
       <div class="page-title">
         <h4 class="ib_main_header"><%= @student.name %></h4>
         <div class="social-icons">
-          <a href="https://twitter.com/okokillgo"><i class="icon-twitter ib-social-icons"></i></a>
-          <a href="http://www.linkedin.com/pub/desmond-rawls/20/262/398"><i class="icon-linkedin-sign ib-social-icons"></i></a>
-          <a href="https://github.com/desmondrawls"><i class="icon-github ib-social-icons"></i></a>
+          <a href=<%= @student.twitter_url %>><i class="icon-twitter ib-social-icons"></i></a>
+          <a href=<%= @student.linkedin_url %>><i class="icon-linkedin-sign ib-social-icons"></i></a>
+          <a href=<%= @student.github_url %>><i class="icon-github ib-social-icons"></i></a>
           <a href="#"><i class="icon-rss ib-social-icons"></i></a>
         </div>
 
@@ -132,7 +132,7 @@
             <ul class="testimonials slides">
               <li id="text-7" class="widget_text" style="list-style: none; display: list-item;">
                 <div class="textwidget">
-                  <h3>"What I cannot create, I do not understand." -- Richard Feynman</h3>
+                  <h3><%=@student.quote %></h3>
                 </div>
               </li>
             </ul>
