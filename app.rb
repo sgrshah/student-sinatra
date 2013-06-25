@@ -7,15 +7,15 @@ module StudentSite
   
   class App < Sinatra::Base
    
-    get '/hello-world' do
-      @random_numbers = (1..20).to_a
-      erb :hello
-    end
+    # get '/hello-world' do
+    #   @random_numbers = (1..20).to_a
+    #   erb :hello
+    # end
      
-    get '/artists' do
-      @artists = ["Led Zeppelin", "New Order", "Another Band"]
-      erb :artists
-    end
+    # get '/artists' do
+    #   @artists = ["Led Zeppelin", "New Order", "Another Band"]
+    #   erb :artists
+    # end
      
     get '/students' do
       @id = params[:id]

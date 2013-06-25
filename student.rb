@@ -9,8 +9,15 @@ class Student
   ATTRIBUTES = {
     "id" => "INTEGER PRIMARY KEY AUTOINCREMENT",
     "name" => "TEXT",  
-    "tagline" => "TEXT",
-    "bio" => "TEXT"
+    "image_url" => "TEXT",
+    "quote" => "TEXT",
+    "twitter_url" => "TEXT",
+    "linkedin_url" => "TEXT",
+    "github_url" => "TEXT",
+    "blog_url" => "TEXT",
+    "treehouse_url" => "TEXT",
+    "codeschool_url" => "TEXT",
+    "coderwall_url" => "TEXT"
   }
 
   ATTRIBUTES.each do |key, value|
