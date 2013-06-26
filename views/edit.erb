@@ -1,0 +1,31 @@
+<h1>Edit Student Form</h1>
+
+<form action = '/students/<%= @student.id %>/edited-user' method="POST">
+
+  <label>Name</label>
+    <input type="text" name="name" value="<%= @student.name %>"><br>
+  <label>Profile Image Link</label>
+    <input type="text" name="image_url" value="<%= @student.image_url %>"><br>
+  <label>quote</label>
+    <input type="text" name="quote" value="<%= @student.quote %>"><br>
+  <label>Twitter URL</label>
+    <input type="text" name="twitter_url" value="<%= @student.twitter_url %>"><br>
+  <label>Linkedin URL</label>
+    <input type="text" name="linkedin_url" value="<%= @student.linkedin_url %>"><br>
+  <label>Github URL</label>
+    <input type="text" name="github_url" value="<%= @student.github_url %>"><br>
+  <label>Blog URL</label>
+    <input type="text" name="blog_url" value="<%= @student.blog_url %>"><br>
+  <label>Treehouse URL</label>
+    <input type="text" name="treehouse_url" value="<%= @student.treehouse_url %>"><br>
+  <label>Codeschool URL</label>
+    <input type="text" name="codeschool_url" value="<%= @student.codeschool_url %>"><br>
+  <label>Coderwall URL</label>
+    <input type="text" name="coderwall_url" value="<%= @student.coderwall_url %>"><br>
+
+  <button type="submit">Go</button>
+
+</form>
+
+
+   
