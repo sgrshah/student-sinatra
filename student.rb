@@ -8,7 +8,7 @@ class Student
 
   ATTRIBUTES = {
     "id" => "INTEGER PRIMARY KEY AUTOINCREMENT",
-    "name" => "TEXT",
+    "name" => "TEXT",  
     "image_url" => "TEXT",
     "quote" => "TEXT",
     "twitter_url" => "TEXT",
